@@ -116,9 +116,6 @@ Hello {user_mention}! I'm your secure file sharing assistant.
 • Real-time Tracking
 • Force Subscribe
 
-📢 Join @Thealphabotz for updates!
-👨‍💻 Contact @adarsh2626 for support
-A Open Source Repo :- github.com/utkarshdubey2008/alphashare
 
 Use /help to see available commands!
 """
@@ -149,22 +146,19 @@ Use /help to see available commands!
 • Forward files & reply with `/batch`.  
 
 
-🛠 **Open Source:**  
-🔗 [GitHub](https://github.com/utkarshdubey2008/alphashare)  
-
-⚠️ **Need Help?** Contact [@adarsh2626](https://t.me/adarsh2626)  
+⚠️ **Need Help?** Contact [@Abdullayev_donat](https://t.me/Abdullayev_Mlbb_Chat)  
 """
 
     ABOUT_TEXT = """
 ℹ️ **About {bot_name}**
 
 **Version:** `{version}`
-**Developer:** @adarsh2626
+**Developer:** @Abdullayev_donat
 **Language:** Python
 **Framework:** Pyrogram
 
-📢 **Updates:** @Thealphabotz
-🛠 **Support:** @adarsh2626
+📢 **Updates:** @Abdullayev_donat
+🛠 **Support:** @Abdullayev_donat
 
 **Features:**
 • Secure File Sharing
@@ -177,7 +171,7 @@ Use /help to see available commands!
 
 use /repo to know more info
 
-Made with ❤️ by @adarsh2626
+Made with ❤️ by @dpmods
 """
 
     FILE_TEXT = """
@@ -198,7 +192,7 @@ Made with ❤️ by @adarsh2626
 ⚠️ **Access Restricted!**
 
 Please join our channel to use this bot:
-Bot By @Thealphabotz
+
 
 Click button below, then try again!
 """
