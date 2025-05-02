@@ -144,22 +144,11 @@ Botni ishga tushirish uchun quyidagi kanallarga obuna bo‘ling:
 """
 
     ABOUT_TEXT = """
-ℹ️ **Haqida {bot_name}**
+💎 Olmos sotib olish uchun:👇
+@Abdullayev_donat
 
-**Versiya:** `{version}`
-**Dasturchi:** https://t.me/Abdullayev_Game_Shop/29
-
-
-📢 **Updates:** @Abdullayev_donat
-🛠 **Support:** https://t.me/Abdullayev_Game_Shop/29
-
-**Xususiyatlari:**
-• Yangi sinov serveri APK ogohlantirishlari 
-• To'g'ridan-to'g'ri yuklab olish havolalari 
-• Yamoq qaydlari va o‘zgarishlar jurnali yangilanishlari 
-• Ro'yxatdan o'tish ochiq bildirishnomalari
-
-Bot @dpmods tomonidan ❤️ bilan yaratilgan
+💎 Olmos narxlari:👇
+https://t.me/Abdullayev_Game_Shop/29
 """
 
     FILE_TEXT = """
