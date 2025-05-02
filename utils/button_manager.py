@@ -85,8 +85,8 @@ class ButtonManager:
     def start_button(self) -> InlineKeyboardMarkup:
         buttons = [
             [
-                InlineKeyboardButton("Yordam bering 📜", callback_data="help"),
-                InlineKeyboardButton("ℹ️ haqida", callback_data="about")
+                InlineKeyboardButton("Yordam 📜", callback_data="help"),
+                InlineKeyboardButton("Bot haqida", callback_data="about")
             ]
         ]
         
@@ -110,8 +110,8 @@ class ButtonManager:
     def help_button(self) -> InlineKeyboardMarkup:
         buttons = [
             [
-                InlineKeyboardButton("Uy 🏠", callback_data="home"),
-                InlineKeyboardButton("ℹ️ haqida", callback_data="about")
+                InlineKeyboardButton("Bosh sahifa 🏠", callback_data="home"),
+                InlineKeyboardButton("Bot haqida", callback_data="about")
             ]
         ]
         
@@ -131,8 +131,8 @@ class ButtonManager:
     def about_button(self) -> InlineKeyboardMarkup:
         buttons = [
             [
-                InlineKeyboardButton("Uy 🏠", callback_data="home"),
-                InlineKeyboardButton("Yordam bering 📜", callback_data="help")
+                InlineKeyboardButton("Bosh sahifa 🏠", callback_data="home"),
+                InlineKeyboardButton("Yordam 📜", callback_data="help")
             ]
         ]
         
