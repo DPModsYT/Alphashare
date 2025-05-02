@@ -86,7 +86,7 @@ class ButtonManager:
         buttons = [
             [
                 InlineKeyboardButton("Yordam 📜", callback_data="help"),
-                InlineKeyboardButton("Bot haqida", callback_data="about")
+                InlineKeyboardButton("💎 Olmos sotib olish", callback_data="about")
             ]
         ]
         
@@ -111,7 +111,7 @@ class ButtonManager:
         buttons = [
             [
                 InlineKeyboardButton("Bosh sahifa 🏠", callback_data="home"),
-                InlineKeyboardButton("Bot haqida", callback_data="about")
+                InlineKeyboardButton("💎 Olmos sotib olish", callback_data="about")
             ]
         ]
         
