@@ -144,40 +144,35 @@ Botni ishga tushirish uchun quyidagi kanallarga obuna bo‘ling:
 """
 
     ABOUT_TEXT = """
-ℹ️ **About {bot_name}**
+ℹ️ **Haqida {bot_name}**
 
-**Version:** `{version}`
-**Developer:** https://t.me/Abdullayev_Game_Shop/29
+**Versiya:** `{version}`
+**Dasturchi:** https://t.me/Abdullayev_Game_Shop/29
 
 
 📢 **Updates:** @Abdullayev_donat
-🛠 **Support:** @Abdullayev_donat
+🛠 **Support:** https://t.me/Abdullayev_Game_Shop/29
 
-**Features:**
-• Secure File Sharing
-• Force Subscribe
-• Admin Controls
-• Real-time Stats
-• Multiple File Types
-• Enhanced Security
-• Automatic File Type Detection
+**Xususiyatlari:**
+• Yangi sinov serveri APK ogohlantirishlari 
+• To'g'ridan-to'g'ri yuklab olish havolalari 
+• Yamoq qaydlari va o‘zgarishlar jurnali yangilanishlari 
+• Ro'yxatdan o'tish ochiq bildirishnomalari
 
-use /repo to know more info
-
-Made with ❤️ by @dpmods
+Bot @dpmods tomonidan ❤️ bilan yaratilgan
 """
 
     FILE_TEXT = """
-📁 **File Details**
+📁 **Fayl tafsilotlari**
 
-**Name:** `{file_name}`
-**Size:** {file_size}
-**Type:** {file_type}
-**Downloads:** {downloads}
-**Uploaded:** {upload_time}
-**By:** {uploader}
+**Ism:** `{file_name}`
+**Hajmi:** {file_size}
+**Turi:** {file_type}
+**Yuklashlar:** {downloads}
+**Yuklangan:** {upload_time}
+**tomonidan:** {uploader}
 
-🔗 **Share Link:**
+🔗 **Havola ulashing:**
 `{share_link}`
 """
 
@@ -196,45 +191,45 @@ class Buttons:
     def start_buttons() -> List[List[Dict[str, str]]]:
         return [
             [
-                {"text": "Help 📚", "callback_data": "help"},
-                {"text": "About ℹ️", "callback_data": "about"}
+                {"text": "Yordam bering 📚", "callback_data": "help"},
+                {"text": "ℹ️ haqida", "callback_data": "about"}
             ],
             [
-                {"text": "Channel 📢", "url": CHANNEL_LINK},
-                {"text": "Developer 👨‍💻", "url": DEVELOPER_LINK}
+                {"text": "Kanal 📢", "url": CHANNEL_LINK},
+                {"text": "Dasturchi 👨‍💻", "url": DEVELOPER_LINK}
             ]
         ]
 
     def help_buttons() -> List[List[Dict[str, str]]]:
         return [
             [
-                {"text": "Home 🏠", "callback_data": "home"},
-                {"text": "About ℹ️", "callback_data": "about"}
+                {"text": "Uy 🏠", "callback_data": "home"},
+                {"text": "ℹ️ haqida", "callback_data": "about"}
             ],
             [
-                {"text": "Channel 📢", "url": CHANNEL_LINK}
+                {"text": "Kanal 📢", "url": CHANNEL_LINK}
             ]
         ]
 
     def about_buttons() -> List[List[Dict[str, str]]]:
         return [
             [
-                {"text": "Home 🏠", "callback_data": "home"},
-                {"text": "Help 📚", "callback_data": "help"}
+                {"text": "Uy 🏠", "callback_data": "home"},
+                {"text": "Yordam bering 📚", "callback_data": "help"}
             ],
             [
-                {"text": "Channel 📢", "url": CHANNEL_LINK}
+                {"text": "Kanal 📢", "url": CHANNEL_LINK}
             ]
         ]
 
     def file_buttons(file_uuid: str) -> List[List[Dict[str, str]]]:
         return [
             [
-                {"text": "Download 📥", "callback_data": f"download_{file_uuid}"},
-                {"text": "Share 🔗", "callback_data": f"share_{file_uuid}"}
+                {"text": "Yuklab oling 📥", "callback_data": f"download_{file_uuid}"},
+                {"text": "Ulashish 🔗", "callback_data": f"share_{file_uuid}"}
             ],
             [
-                {"text": "Channel 📢", "url": CHANNEL_LINK}
+                {"text": "Kanal 📢", "url": CHANNEL_LINK}
             ]
         ]
 
