@@ -55,12 +55,12 @@ async def start_command(client: Client, message: Message):
         
         force_sub_status = await button_manager.check_force_sub(client, message.from_user.id)
         if not force_sub_status:
-            force_sub_text = "**⚠️ You must join our channel(s) to use this bot!**\n\n"
+            force_sub_text = "**❗️Botdan to'liq foydalanish uchun birinchi navbatda ushbu kanallarga a'zo bo'lishingiz kerak!**\n\n"
             
             if config.FORCE_SUB_CHANNEL != 0:
-                force_sub_text += "• Join Channel 1\n"
+                
             if config.FORCE_SUB_CHANNEL_2 != 0:
-                force_sub_text += "• Join Channel 2\n"
+                
                 
             force_sub_text += "\nJoin the channel(s) and try again."
             
