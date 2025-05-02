@@ -148,7 +148,7 @@ Test serverini olish uchun:
 @Abdullayev_donat
 
 💎 Olmos narxlari:👇
-[Bu yerni bosing](https://t․me/Abdullayev_Game_Shop/29)
+@Abdullayev_Game_Shop
 """
 
     FILE_TEXT = """
