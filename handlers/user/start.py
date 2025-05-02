@@ -58,12 +58,12 @@ async def start_command(client: Client, message: Message):
             force_sub_text = "**❗️Botdan to'liq foydalanish uchun birinchi navbatda ushbu kanallarga a'zo bo'lishingiz kerak!**\n\n"
             
             if config.FORCE_SUB_CHANNEL != 0:
-                force_sub_text += "• ABDULLAYEV MLBB\n"
+                force_sub_text += ""
             if config.FORCE_SUB_CHANNEL_2 != 0:
-                force_sub_text += "• ABDULLAYEV AKKAUNT SAVDO\n"
+                force_sub_text += ""
                 
                 
-            force_sub_text += "\nJoin the channel(s) and try again."
+            force_sub_text += "\nKanallarga obuna bo'lib qayta /start tugmasini bosing!"
             
             await message.reply_text(
                 force_sub_text,
