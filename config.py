@@ -116,31 +116,6 @@ Test serverini olish uchun:
 """
 
     HELP_TEXT = """
-📚 **Available Commands**  
-
-👤 **User Commands:**  
-• `/start` - Start the bot  
-• `/help` - Show this menu  
-• `/about` - Bot details  
-• `/short [url]` - Shorten a link (e.g., `/short example.com`)  
-/repo 
-
-👑 **Admin Commands:**  
-• `/upload` - Upload a file (reply to a file)  
-• `/stats` - View bot statistics  
-• `/broadcast` - Send a message to all users  
-• `/auto_del` - Set auto-delete timer  
-
-
-🗑 **Auto-Delete System:**  
-• Files auto-delete after a set time.  
-• Modify timer using `/auto_del`.  
-
-🔗 **Batch System:**  
-• `/batch` - Group multiple files into one link.  
-• Forward files & reply with `/batch`.  
-
-
 ⚠️ **Need Help?** Aloqa [@Abdullayev_donat](https://t.me/Abdullayev_Mlbb_Chat)  
 """
 
