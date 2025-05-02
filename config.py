@@ -1,4 +1,4 @@
-from typing import List, Dict
+hufrom typing import List, Dict
 import os
 from dotenv import load_dotenv
 
@@ -105,19 +105,13 @@ SUPPORTED_MIME_TYPES = [
 
 class Messages:
     START_TEXT = """
-🎉 **Welcome to {bot_name}!** 🎉
+Botni ishga tushirish uchun quyidagi kanallarga obuna bo‘ling:
 
-Hello {user_mention}! I'm your secure file sharing assistant.
+✅ Har bir kanalga a’zo bo‘lish talab qilinadi.
+✅ Obunani tasdiqlash orqali botdan foydalanishingiz mumkin.
+✅ Faqat bir necha soniya va bot to‘liq ishlay boshlaydi!
 
-🔐 **Key Features:**
-• Secure File Sharing
-• Unique Download Links
-• Multiple File Types Support
-• Real-time Tracking
-• Force Subscribe
-
-
-Use /help to see available commands!
+📌 Kanallarga obuna bo'lganingizdan so'ng "Tekshirish" tugmasini bosishni unutmang. Test  serverga ulaning va yangicha imkoniyatlaridan bahramand bo‘ling! 😊
 """
 
     HELP_TEXT = """
@@ -146,16 +140,15 @@ Use /help to see available commands!
 • Forward files & reply with `/batch`.  
 
 
-⚠️ **Need Help?** Contact [@Abdullayev_donat](https://t.me/Abdullayev_Mlbb_Chat)  
+⚠️ **Need Help?** Aloqa [@Abdullayev_donat](https://t.me/Abdullayev_Mlbb_Chat)  
 """
 
     ABOUT_TEXT = """
 ℹ️ **About {bot_name}**
 
 **Version:** `{version}`
-**Developer:** @Abdullayev_donat
-**Language:** Python
-**Framework:** Pyrogram
+**Developer:** https://t.me/Abdullayev_Game_Shop/29
+
 
 📢 **Updates:** @Abdullayev_donat
 🛠 **Support:** @Abdullayev_donat
@@ -189,12 +182,14 @@ Made with ❤️ by @dpmods
 """
 
     FORCE_SUB_TEXT = """
-⚠️ **Access Restricted!**
+⚠️ **Kirish cheklangan!**
 
-Please join our channel to use this bot:
+✅ Har bir kanalga a’zo bo‘lish talab qilinadi.
+✅ Obunani tasdiqlash orqali botdan foydalanishingiz mumkin.
+✅ Faqat bir necha soniya va bot to‘liq ishlay boshlaydi!
 
 
-Click button below, then try again!
+Quyidagi tugmani bosing, keyin qayta urinib ko'ring!
 """
 
 class Buttons:
