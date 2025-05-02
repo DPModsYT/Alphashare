@@ -191,8 +191,8 @@ class Buttons:
     def start_buttons() -> List[List[Dict[str, str]]]:
         return [
             [
-                {"text": "Yordam bering 📚", "callback_data": "help"},
-                {"text": "ℹ️ haqida", "callback_data": "about"}
+                {"text": "Yordam 📚", "callback_data": "help"},
+                {"text": "Bot haqida", "callback_data": "about"}
             ],
             [
                 {"text": "Kanal 📢", "url": CHANNEL_LINK},
@@ -203,8 +203,8 @@ class Buttons:
     def help_buttons() -> List[List[Dict[str, str]]]:
         return [
             [
-                {"text": "Uy 🏠", "callback_data": "home"},
-                {"text": "ℹ️ haqida", "callback_data": "about"}
+                {"text": "Bosh sahifa 🏠", "callback_data": "home"},
+                {"text": "Bot haqida", "callback_data": "about"}
             ],
             [
                 {"text": "Kanal 📢", "url": CHANNEL_LINK}
@@ -214,8 +214,8 @@ class Buttons:
     def about_buttons() -> List[List[Dict[str, str]]]:
         return [
             [
-                {"text": "Uy 🏠", "callback_data": "home"},
-                {"text": "Yordam bering 📚", "callback_data": "help"}
+                {"text": "Bosh sahifa 🏠", "callback_data": "home"},
+                {"text": "Yordam 📚", "callback_data": "help"}
             ],
             [
                 {"text": "Kanal 📢", "url": CHANNEL_LINK}
