@@ -110,7 +110,8 @@ class Messages:
 
 Test serverini olish uchun:
 1) @Abdullayev_Mlbb - Asosiy telegram kanalimizga kirib qadalgan habarlar orasidan "Test Serverni olish" havolasini topishingiz va havola ustiga bosishingiz kerak bo'ladi!
-2) Havola ustiga bosganingizdan so'ng siz yana botga qaytasiz va o'yinning test serveri sizga avtomatik tarzda tashlab beriladi!/n/n
+2) Havola ustiga bosganingizdan so'ng siz yana botga qaytasiz va o'yinning test serveri sizga avtomatik tarzda tashlab beriladi!
+
 ❗️Eslatma: «Mobile Legends» o‘yinining test versiyasi har oy yangilanadi. Iltimos, kanallardan chiqib ketmang! Agar foydalanuvchi kanallarni tark etsa, u bot va kanalning qora ro‘yxatiga kiritiladi hamda test serverining keyingi yangilanadigan versiyasini olish imkoniyatidan mahrum bo‘ladi.
 """
 
