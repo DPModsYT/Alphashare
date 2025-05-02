@@ -148,7 +148,7 @@ Botni ishga tushirish uchun quyidagi kanallarga obuna bo‘ling:
 @Abdullayev_donat
 
 💎 Olmos narxlari:👇
-[Bu yerni bosing](https://t.me/Abdullayev_Game_Shop/29)
+[Bu yerni bosing](https://t․me/Abdullayev_Game_Shop/29)
 """
 
     FILE_TEXT = """
