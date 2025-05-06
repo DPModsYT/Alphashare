@@ -56,7 +56,7 @@ async def callback_handler(client: Client, callback: CallbackQuery):
                     delete_time = file_data.get("auto_delete_time")
                     if delete_time:
                         info_msg = await msg.reply_text(
-                            ,
+                            
                             protect_content=config.PRIVACY_MODE
                         )
                         
